@@ -1,0 +1,58 @@
+{
+  "n_manzanas": 656,
+  "n_agentes": 76150,
+  "mesas_atipicas_excluidas": 6,
+  "n_mesas_train": 282,
+  "n_puestos_train": 11,
+  "n_mesas_test": 351,
+  "n_puestos_test": 15,
+  "participacion": {
+    "2019": 0.6226,
+    "2023": 0.6218
+  },
+  "umbral_alta_baja": 0.6193,
+  "clasificador_base": "Random Forest",
+  "cv_2019": {
+    "Random Forest": 8.245,
+    "Gradient Boosting": 8.886,
+    "Red neuronal feedforward (FNN)": 20.593,
+    "Regresión logística": 26.018
+  },
+  "moran": {
+    "2019": {
+      "I": 0.005,
+      "p_sim": 0.23,
+      "n": 11
+    },
+    "2023": {
+      "I": -0.125,
+      "p_sim": 0.417,
+      "n": 15
+    }
+  },
+  "mejor_referencia": "Random Forest",
+  "MAE_hibrido": 7.806,
+  "RMSE_hibrido": 10.276,
+  "MAE_mejor_ref": 7.823,
+  "RMSE_mejor_ref": 10.283,
+  "dif_MAE_hibrido_vs_mejor_ref": -0.017,
+  "IC95_dif": [
+    -0.056,
+    0.022
+  ],
+  "dif_MAE_hibrido_vs_alpha1": -0.018,
+  "IC95_dif_alpha1": [
+    -0.052,
+    0.01
+  ],
+  "MAE_hibrido_puestos_nuevos": 9.952,
+  "MAE_persistencia_puestos_nuevos": 11.687,
+  "MAE_hibrido_zona_focal": 7.597,
+  "parametros": {
+    "semilla": 42,
+    "replicas": 100,
+    "ticks": 50,
+    "alpha": 0.8,
+    "radio_m": 300
+  }
+}
